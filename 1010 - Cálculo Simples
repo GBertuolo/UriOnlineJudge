@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int id1, id2, quantidade1, quantidade2;
+    double valorUnidade1, valorUnidade2, valorTotal;
+    scanf("%d %d %lf", &id1, &quantidade1, &valorUnidade1);
+    scanf("%d %d %lf", &id2, &quantidade2, &valorUnidade2);
+    valorTotal = (quantidade1 * valorUnidade1) + (quantidade2 * valorUnidade2);
+    printf("VALOR A PAGAR: R$ %.2lf\n",valorTotal);
+return 0;
+}
