@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int id, cargaHoraria;
+    double salarioHora, salarioTotal;
+    scanf("%d %d %lf", &id, &cargaHoraria, &salarioHora);
+    salarioTotal =cargaHoraria * salarioHora;
+    printf("NUMBER = %d\nSALARY = U$ %.2lf\n", id, salarioTotal);
+return 0;
+}
