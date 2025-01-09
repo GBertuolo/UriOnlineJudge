@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void){
+  double raio, A;
+  scanf("%lf.2", &raio);
+  A=3.14159*(raio*raio);
+  printf("A=%.4f\n", A);
+  return 0;
+}
