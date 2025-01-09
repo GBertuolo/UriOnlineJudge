@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+    int distancia;
+    double litros;
+    scanf("%d%lf", &distancia, &litros);
+    printf("%.3lf km/l\n", distancia / litros);
+    return 0;
+}
